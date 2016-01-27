@@ -36,10 +36,11 @@ app.get('/*', function(req, res) {
   });
 });
 
-var port = Number(process.env.PORT || 3001);
-app.listen(port, function () {
-  console.log('server running at localhost:3001, go refresh and see magic');
+app.set('port', (process.env.PORT || 5000));
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
+
 
 if (env.production === false) {
   var webpack = require('webpack');
