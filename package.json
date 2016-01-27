@@ -7,8 +7,7 @@
     "start": "node index",
     "test": "jest",
     "coverage": "jest --coverage",
-    "dist": "NODE_ENV=production webpack -p --progress",
-    "postinstall": "npm run dist"
+    "dist": "NODE_ENV=production webpack -p --progress"
   },
   "repository": {
     "type": "git",
