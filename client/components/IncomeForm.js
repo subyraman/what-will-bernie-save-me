@@ -27,9 +27,9 @@ export default class ChatFormComponent extends React.Component {
           <h3>Your Household Income:</h3>
         </div>
         <div className="row" style={{marginTop: 20}}>
-          <div className="col-sm-6 col-sm-offset-3">
-            <input style={{height: 50, fontSize: 22}} type="number" required pattern="\d*"
-              className=" form-control" ref="income" placeholder="Enter your annual household income." />
+          <div className="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+            <input style={{height: 50, fontSize: 16}} type="number" required pattern="\d*"
+              className="form-control" ref="income" placeholder="Enter your annual household income." />
           </div>
         </div>
         <div className="row" style={{marginTop: 20}}>
