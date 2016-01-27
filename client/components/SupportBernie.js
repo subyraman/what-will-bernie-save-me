@@ -18,7 +18,10 @@ export default class SupportBernie extends React.Component {
       <div className="row text-center" style={{marginBottom: 50}}>
         <div className="banner" style={this.bernieStyles}>
         </div>
-        <h3>Like what you see? <a href="https://berniesanders.com">Support Bernie!</a></h3>
+        <div className="col-xs-12">
+            <h3>Like what you see?</h3>
+            <h3><a href="https://berniesanders.com">Support Bernie!</a></h3>
+        </div>
         <p><a href="https://go.berniesanders.com/page/s/volunteer-for-bernie?source=web_main_nav">Donate to his campaign</a></p>
         <p><a href="https://secure.actblue.com/contribute/page/lets-go-bernie?refcode=homepage_main_nav">Contribute to his campaign</a></p>
         <small>This website is not affiliated with the Bernie Sanders campaign. Interface written by <a href="http://twitter.com/subyraman">Suby Raman</a>. Data compiled by <a href="http://datatitian.com/bernie-tax/">Will Murphy</a>.</small>
